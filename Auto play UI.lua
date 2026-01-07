@@ -36,7 +36,7 @@ local Options = Fluent.Options
 
 
 getgenv().Config = {
-    Script_Name = 'Auto Play',
+    Name = 'Auto Play',
 	Delay = 0.50,
 	DivPor = 20,
 	Stop = false,
@@ -470,3 +470,4 @@ Fluent:Notify({
 -- which has been marked to be one that auto loads!
 
 SaveManager:LoadAutoloadConfig()
+
